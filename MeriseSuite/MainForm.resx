@@ -1,0 +1,1149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="StandardBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Standard_NewButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Standard_NewButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Standard_NewButton.Text" xml:space="preserve">
+    <value>&amp;Nouveau</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Standard_OpenButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Standard_OpenButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Standard_OpenButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Standard_OpenButton.Text" xml:space="preserve">
+    <value>&amp;Ouvrir</value>
+  </data>
+  <data name="Standard_SaveButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Standard_SaveButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Standard_SaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Standard_SaveButton.Text" xml:space="preserve">
+    <value>&amp;Enregistrer</value>
+  </data>
+  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="Standard_AddNewEntityButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Standard_AddNewEntityButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Standard_AddNewEntityButton.Text" xml:space="preserve">
+    <value>Ajouter une nouvelle entité</value>
+  </data>
+  <data name="Standard_NamingStyle_PascalCaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 22</value>
+  </data>
+  <data name="Standard_NamingStyle_PascalCaseButton.Text" xml:space="preserve">
+    <value>PascalCase</value>
+  </data>
+  <data name="Standard_NamingStyle_PascalCaseButton.ToolTipText" xml:space="preserve">
+    <value>Utilise la convention PascalCase afin de nommer les éléments.
+Par exemple : NomPomme, TypePersonnage</value>
+  </data>
+  <data name="Standard_NamingStyle_CamelCaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 22</value>
+  </data>
+  <data name="Standard_NamingStyle_CamelCaseButton.Text" xml:space="preserve">
+    <value>camelCase</value>
+  </data>
+  <data name="Standard_NamingStyle_CamelCaseButton.ToolTipText" xml:space="preserve">
+    <value>Utilise la convention CamelCase afin de nommer les éléments.
+Par exemple : nomPomme, typePersonnage</value>
+  </data>
+  <data name="Standard_NamingStyle_LowerCaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 22</value>
+  </data>
+  <data name="Standard_NamingStyle_LowerCaseButton.Text" xml:space="preserve">
+    <value>lower_case</value>
+  </data>
+  <data name="Standard_NamingStyle_LowerCaseButton.ToolTipText" xml:space="preserve">
+    <value>Utilise la convention LowerCase afin de nommer les éléments.
+Par exemple : nom_pomme, type_personnage</value>
+  </data>
+  <data name="Standard_NamingStyle_UpperCaseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 22</value>
+  </data>
+  <data name="Standard_NamingStyle_UpperCaseButton.Text" xml:space="preserve">
+    <value>UPPER_CASE</value>
+  </data>
+  <data name="Standard_NamingStyle_UpperCaseButton.ToolTipText" xml:space="preserve">
+    <value>Utilise la convention UpperCase afin de nommer les éléments.
+Par exemple : NOM_POMME, TYPE_PERSONNAGE</value>
+  </data>
+  <data name="Standard_NamingStyle_ApplyButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEvSURBVDhPYxgFqCC+bPHu6KJFu6FcMEgoXXomtXrF/+Sq
+        5f/jSpf8D82b/989cfoZm6A+JagSCEisWKoUWzD3HUhBUOZcFMno4kVnQnMXrAKxPRKmhZqH9P3X8+mY
+        CZaEgZjiReWRhQvKg7Ln/vdNm1UOFQYDkAEhOXPBBjjFTg7V9+38r+PViaKGIaJgYQfIZu/Umf9dYyfd
+        hQqDQUDmnDNuCdP+W4dP+G8U0A2yHcWbDEBNLs5xU/9bhvX/Nwns+Q+yQde7ywUqzWAe1HcGqAnsApDT
+        9Xw6QYaA+WBgHTkR7hxd7840qIIOqBBQUyfcABAA8t+BMJhjEzbJxTSwFyVAYAp0vdvBgYlsANBloUA+
+        0ILOMyA+TDHcRohisAIQBskh86G4YzfM8FHAwAAA3o2VELx/b5IAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Standard_NamingStyle_ApplyButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Standard_NamingStyle_ApplyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="Standard_NamingStyle_ApplyButton.Text" xml:space="preserve">
+    <value>PascalCase</value>
+  </data>
+  <data name="Standard_NamingStyle_ApplyButton.ToolTipText" xml:space="preserve">
+    <value>Changer le style de nommage</value>
+  </data>
+  <data name="Standard_NewRelationButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Standard_NewRelationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Standard_NewRelationButton.Text" xml:space="preserve">
+    <value>Ajouter une nouvelle relation</value>
+  </data>
+  <data name="Standard_PropertyStyle_KeyOnlyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="Standard_PropertyStyle_KeyOnlyButton.Text" xml:space="preserve">
+    <value>Clé seule</value>
+  </data>
+  <data name="Standard_PropertyStyle_PrefixButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="Standard_PropertyStyle_PrefixButton.Text" xml:space="preserve">
+    <value>Préfixe</value>
+  </data>
+  <data name="Standard_PropertyStyle_SuffixButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="Standard_PropertyStyle_SuffixButton.Text" xml:space="preserve">
+    <value>Suffixe</value>
+  </data>
+  <data name="Standard_PropertyStyle_ApplyButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEpSURBVDhPYxiGINRe1ODUtsz/m+cE/Z/VYPl/Qr7q/74s
+        yf+BloI6UCX4wcoJ7v//f53///+vdf8/PJ8EpDf+//qy63+GF8t/qBL8YFKpwf//39f9f/+4/X91ot7/
+        j097////se5/vBMrcQZ0Zij///mm/f//z7P//3/f/P//t0X/753N/e+gxUacAZF2IqrV0TL//7+uARrQ
+        9f/ppYT/zsa8/x31eJOgSgiDGHtRj+4suf//Xpb/t9Rhe22tw+0KlSIedGfL/f//PO//zbWWX0wUmM5A
+        hYkHNXHi//8/CP+vpcXxx0GfxxoqTDwoDBT6f3C//d99s9Q/KoswP4AKEw8SHbn+vT6g9d1Ymfm+oSpP
+        EFSYeBBlJ+zoa8j+1lyNyxMqNCgBAwMA8X2FizZnSu4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Standard_PropertyStyle_ApplyButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Standard_PropertyStyle_ApplyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="Standard_PropertyStyle_ApplyButton.Text" xml:space="preserve">
+    <value>Changer la méthode d'affichage des propriétés</value>
+  </data>
+  <data name="Standard_AddNewLinkButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Standard_AddNewLinkButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Standard_AddNewLinkButton.Text" xml:space="preserve">
+    <value>Ajouter un nouveau lien</value>
+  </data>
+  <data name="Standard_AddNewLinkButton.ToolTipText" xml:space="preserve">
+    <value>Ajouter un nouveau lien</value>
+  </data>
+  <data name="StandardBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="StandardBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 25</value>
+  </data>
+  <data name="StandardBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="StandardBar.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;StandardBar.Name" xml:space="preserve">
+    <value>StandardBar</value>
+  </data>
+  <data name="&gt;&gt;StandardBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StandardBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StandardBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="StatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>134, 17</value>
+  </metadata>
+  <data name="Status_Spacer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 17</value>
+  </data>
+  <data name="Status_CreditsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="Status_CreditsLabel.Text" xml:space="preserve">
+    <value>Dju' © 2012</value>
+  </data>
+  <data name="StatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 419</value>
+  </data>
+  <data name="StatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 22</value>
+  </data>
+  <data name="StatusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="StatusBar.Text" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Name" xml:space="preserve">
+    <value>StatusBar</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="MenuBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>235, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="File_NewButton.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="File_NewButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="File_NewButton.Text" xml:space="preserve">
+    <value>&amp;Nouveau</value>
+  </data>
+  <data name="File_OpenButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="File_OpenButton.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="File_OpenButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="File_OpenButton.Text" xml:space="preserve">
+    <value>&amp;Ouvrir</value>
+  </data>
+  <data name="File_SaveButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="File_SaveButton.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="File_SaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="File_SaveButton.Text" xml:space="preserve">
+    <value>Enregi&amp;strer</value>
+  </data>
+  <data name="File_SaveAsButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="File_SaveAsButton.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+S</value>
+  </data>
+  <data name="File_SaveAsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="File_SaveAsButton.Text" xml:space="preserve">
+    <value>Enre&amp;gistrer sous</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 6</value>
+  </data>
+  <data name="File_QuitButton.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="File_QuitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="File_QuitButton.Text" xml:space="preserve">
+    <value>&amp;Quitter</value>
+  </data>
+  <data name="FileMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="FileMenu.Text" xml:space="preserve">
+    <value>&amp;Fichier</value>
+  </data>
+  <data name="Menu_AddNewEntityButton.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+E</value>
+  </data>
+  <data name="Menu_AddNewEntityButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="Menu_AddNewEntityButton.Text" xml:space="preserve">
+    <value>Ajouter une &amp;entité</value>
+  </data>
+  <data name="Model_AddNewRelatioButton.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="Model_AddNewRelatioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="Model_AddNewRelatioButton.Text" xml:space="preserve">
+    <value>Ajouter une &amp;relation</value>
+  </data>
+  <data name="Model_AddNewLinkButton.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+L</value>
+  </data>
+  <data name="Model_AddNewLinkButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="Model_AddNewLinkButton.Text" xml:space="preserve">
+    <value>Ajouter un &amp;lien</value>
+  </data>
+  <data name="ModelMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="ModelMenu.Text" xml:space="preserve">
+    <value>&amp;Modèle</value>
+  </data>
+  <data name="Settings_SetEntityColorButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="Settings_SetEntityColorButton.Text" xml:space="preserve">
+    <value>&amp;Entités</value>
+  </data>
+  <data name="Settings_SetRelationColorButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="Settings_SetRelationColorButton.Text" xml:space="preserve">
+    <value>&amp;Relations</value>
+  </data>
+  <data name="Settings_SetInheritanceColorButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="Settings_SetInheritanceColorButton.Text" xml:space="preserve">
+    <value>&amp;Héritages</value>
+  </data>
+  <data name="Settings_ColorsMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="Settings_ColorsMenu.Text" xml:space="preserve">
+    <value>&amp;Couleurs</value>
+  </data>
+  <data name="Settings_LowQualityButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="Settings_LowQualityButton.Text" xml:space="preserve">
+    <value>&amp;Basse</value>
+  </data>
+  <data name="Settings_HighQualityButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="Settings_HighQualityButton.Text" xml:space="preserve">
+    <value>&amp;Haute</value>
+  </data>
+  <data name="Settings_QualityMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="Settings_QualityMenu.Text" xml:space="preserve">
+    <value>&amp;Qualité d'affichage</value>
+  </data>
+  <data name="SettingsMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="SettingsMenu.Text" xml:space="preserve">
+    <value>&amp;Options</value>
+  </data>
+  <data name="Help_AboutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="Help_AboutButton.Text" xml:space="preserve">
+    <value>&amp;A propos de MeriseSuite</value>
+  </data>
+  <data name="HelpMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="HelpMenu.Text" xml:space="preserve">
+    <value>&amp;?</value>
+  </data>
+  <data name="MenuBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 24</value>
+  </data>
+  <data name="MenuBar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MenuBar.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MenuBar.Name" xml:space="preserve">
+    <value>MenuBar</value>
+  </data>
+  <data name="&gt;&gt;MenuBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ScrollPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ScrollPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ScrollPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ScrollPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 370</value>
+  </data>
+  <data name="ScrollPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ScrollPanel.Name" xml:space="preserve">
+    <value>ScrollPanel</value>
+  </data>
+  <data name="&gt;&gt;ScrollPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ScrollPanel.Parent" xml:space="preserve">
+    <value>MainContainer</value>
+  </data>
+  <data name="&gt;&gt;ScrollPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MainContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MainContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 49</value>
+  </data>
+  <data name="MainContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 370</value>
+  </data>
+  <data name="MainContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MainContainer.Name" xml:space="preserve">
+    <value>MainContainer</value>
+  </data>
+  <data name="&gt;&gt;MainContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="SaveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>511, 17</value>
+  </metadata>
+  <data name="SaveFileDialog.Filter" xml:space="preserve">
+    <value>Modèles MeriseSuite|*.model</value>
+  </data>
+  <data name="SaveFileDialog.Title" xml:space="preserve">
+    <value>Enregistrer le modèle</value>
+  </data>
+  <metadata name="OpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>642, 17</value>
+  </metadata>
+  <data name="OpenFileDialog.Filter" xml:space="preserve">
+    <value>Modèles|*.model;*.asi|Modèles MeriseSuite|*.model|Modèles AnalyseSI|*.asi</value>
+  </data>
+  <data name="OpenFileDialog.Title" xml:space="preserve">
+    <value>Ouvrir un modèle</value>
+  </data>
+  <metadata name="ColorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>777, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>58</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>624, 441</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAMDAAAAEAIACoJQAANgAAACAgAAABACAAqBAAAN4lAAAQEAAAAQAgAGgEAACGNgAAKAAAADAA
+        AABgAAAAAQAgAAAAAACAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAUAAAALAAAAEQAAABQAAAAWAAAAFgAA
+        ABYAAAAWAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAFAAAABEAAAALAAAABQAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAALAAAAFgAAACAAAAAtAAAANwAA
+        AD4AAABBAAAAQwAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAAAEMAAABBAAAAPgAAADcAAAAtAAAAIAAA
+        ABYAAAALAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABMAAAArAAAAPkdF
+        QG1zcGini4d9346JgOqUj4X/k46E/5KOhP+SjoP/ko2D/5KNg/+SjYP/ko6E/5OOhP+Uj4X/jomA6ouH
+        fd9zcGinR0VAbQAAAD4AAAArAAAAEwAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAA
+        AC54c2uol5GH/6Gbkf+xqqH/xby0/8vDuv/j2ND/5dzU/+rf1//t4tz/8ubf//Pn4P/u5N3/6+DY/+bd
+        1f/k2dH/zMS7/8W+tf+xq6H/oZuR/5eRh/94c2uoAAAALgAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALJnFpmtYhLMrWISzK1iEsytYhLMrWISzK1iEsytYhLMsmcWmQAA
+        AAAAAAAAAAAAFYiEe8Ggm5H/yMG3/9LKwf/Ty8L/187F/9nQyP/d08v/39bO/+PZ0f/m3NX/6+DZ/+zh
+        2v/n3db/5NrS/+DXz//e1Mz/2tHJ/9jPxv/VzMP/08vC/8W+s/+hm5H/iIR7wQAAABUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMZ7Jczt7e3/6enp/+np6f/p6en/6enp/+np
+        6f/t7e3/xnslzAAAAAAAAAAAAAAAFpmUif/Iwbf/y8S6/87Gvf/QyL//1MvC/9fOxv/b0cn/3tXN/+LY
+        0P/l29T/6d7X/+vf2P/m3NX/49nR/9/Wzv/c0sr/2M/H/9XMw//RycD/z8e+/8zEu//Jwrj/mZSJ/wAA
+        ABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANGGLczu7u7/bnHC/+jo
+        6P+urq7/v7+//7+/v//u7u7/0YYtzAAAAAAAAAAAAAAAFpmTif/Kwrn/ysO5/83FvP/QyL//1MvC/9fO
+        xv/b0cn/3tXN/+LY0P/l29T/6d7X/+rf2P/m3NX/49nR/9/Wzv/c0sr/2M/H/9XMw//RycD/zsa9/8vD
+        uv/Mw7r/mZOJ/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANqP
+        NMz09PT/8PDw//Dw8P/w8PD/8PDw//Dw8P/09PT/2o80zAAAAAAAAAAAAAAAFpqUiv/Jwbj/ycK4/8zE
+        u//Oxr3/0snA/9XMxP/Zz8f/3NPL/+HWzv/k2dL/6d3W/+re1//l2tP/4tfP/93UzP/a0Mj/1s3F/9PK
+        wf/Px77/zcW8/8rCuf/Lwrn/mZSK/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAOOYO8z6+vr/Iqoz//j4+P/Dw8P/y8vL/7q6uv/6+vr/45g7zAAAAAAAAAAAAAAAFpqV
+        if/IwLf/x8C2/9TNxP/k3db/8u3l//bx6v///PX///v0///79P/++vP//frz//368//++vP//vr0///7
+        9P///PX/9fDq//Ls5f/k3tX/1c7F/8jAt//Kwbj/mpSJ/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOmeP8z//////v7+//7+/v/+/v7//v7+//7+/v//////6Z4/zAAA
+        AAAAAAAAAAAAFJqViv/TzMP/9vHq/+/p4//a1c3/ysK6/7yzq/+0q6H/tKqh/7asov+4rqb/urCm/7uw
+        qP+5raX/t6uj/7Wrof+1qqL/vLSr/8nDuv/a1M3/6uXe//bx6v/TzMP/mZWJ/wAAABQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN+UOMzusmb/6q5i/+aqXv/hpVn/3KBU/9eb
+        T//Slkr/wncYzAAAAB8AAAAAAAAAEJuVi//y7OT/uK+m/6Wckf+ropj/u7Kp/8W6sf/RyL//1cvC/+Xb
+        0//o3tf/7OHa/+7i2//p39j/5tzU/9/Vzf/SycD/z8W9/8K4r/+0q6L/q6GY/7evpv/x6+P/oZ2R/wAA
+        ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOWaPLL5xnXx/M6F//fE
+        fv/0vHL/87xc//fEO//2wSPxz4w2twAAAKsAAABgAAAAEo2HfbW1rKT/ta2i/8nBuP/Ty8L/1s3E/9nQ
+        yP/d08v/39bO/+PZ0f/m3NX/6t/Y/+zg2f/n3db/5NrS/+DXz//d08v/2dHJ/9fOxf/Ty8L/0Mi//8C4
+        r/+3rqX/jIZ9tQAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOme
+        QEPpnkCy6Z5AzOmeQMzpnkDM6Z5AzOmeQMzpnkCy6Z5AQwAAABIAAACOAAAAl355cL1WWaz/Nz6w/zg+
+        sP84P7H/OT+x/zlAsv86QLP/O0Gz/2hqvv/l29T/6d7X/+vf2P/m3NX/49nR/9/Wzv/c0sr/2M/H/9XM
+        w//RycD/z8e+/8zEu/+9taz/i4Z8uAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAbDUy
+        L/9NT8X/9PT0//Dw8P/w8PD/8PDw//Dw8P/w8PD/9PT0/1da2P/l29T/6d7X/+rf2P/m3NX/49nR/9/W
+        zv/c0sr/2M/H/9XMw//RycD/zsa9/8vDuv/Lw7r/oJmP/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAFo2Hff9XWtr/+vr6/yKqM//4+Pj/w8PD/8vLy/+6urr/+vr6/1xe3//k2dL/6d3W/+re
+        1//l2tP/4tfP/93UzP/a0Mj/1s3F/9PKwf/Px77/zcW8/8rCuf/Kwrn/oJmO/wAAABYAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAFqCaj/9aXN////////7+/v/+/v7//v7+//7+/v/+/v7//////2Vo
+        6//++vP//frz//368//++vP//vr0///79P///PX/9vDq//Ls5f/k3tX/1c7F/8jAt//Jwbj/oJqP/wAA
+        ABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFI2Hff9XWtn/Zmnu/2Jl6v9eYeb/WVzh/1RX
+        3P9PUtf/Sk3S/zg5vP+4rqb/urCm/7uwqP+5rqX/t6yj/7Wrov+1qqL/vLSr/8rDuv/a1M3/7uni//bw
+        6v/Sy8L/oJqO/wAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAbDUzL/9ucOD/fHj0/4iF
+        /P9+fvf/cnT0/2Rc8/9WO/f/Tizz/25u3v/o3tf/7OHa/+7i2//p39j/5tzU/9nOx//SycD/z8W9/761
+        rP+0q6L/q6GY/7eupf/w6+P/qKGW/wAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAACOAAAAloF8
+        c7uWkbX/Y2TU/1te3/9dYOH/XmDi/19h4v9fYeP/cHHh/7iy1//m3NX/6t/Y/+zg2f/n3db/5NrS/+DX
+        z//d08v/2tHJ/9fOxf/Ty8L/0Mi//7+3r/+2rqX/j4mAtgAAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALJnFpmtYhLMrWISzK1iEsytYhLMrWISzK1iEsytYhLMqmMVoAAA
+        AKsAAABeAAAAF6CZjee2rqT/y8S6/87Gvf/RycD/1MvC/9fOxv/b0cn/3tXN/+LY0P/l29T/6d7X/+vf
+        2P/m3NX/49nR/9/Wzv/c0sr/2M/H/9XMw//RycD/z8e+/8zEu/+8tKv/n5iN5wAAABYAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMZ7Jczt7e3/6enp/+np6f/p6en/6enp/+np
+        6f/t7e3/xnslzAAAAB8AAAAAAAAAFqWek//Jwbn/ysO5/83FvP/QyL//1MvC/9fOxv/b0cn/3tXN/+LY
+        0P/l29T/6d7X/+rf2P/m3NX/49nR/9/Wzv/c0sr/2M/H/9XMw//RycD/zsa9/8vDuv/Kwrr/pZ6T/wAA
+        ABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANGGLczu7u7/bnHC/+jo
+        6P+urq7/v7+//7+/v//u7u7/0YYtzAAAAAAAAAAAAAAAFqaflP/IwLj/ycK4/8zDuv/Oxr3/0si//9XL
+        w//Zzsb/3NLK/+DWzv/j2dL/6N3W/+re1//l2tP/4dfP/93UzP/az8f/1szE/9PJwP/Px77/zcS7/8rC
+        uf/Kwbn/pp+U/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANqP
+        NMz09PT/8PDw//Dw8P/w8PD/8PDw//Dw8P/09PT/2o80zAAAAAAAAAAAAAAAFqegk//Hvrb/xr+0/9LL
+        wv/i29P/8Ori//Pu5//9+vP//fny//348v/8+PH//Pjx//z48f/8+PH//fjy//358v/9+fP/8+7n/+/q
+        4v/i3NP/08zD/8e/tv/Iv7f/p6CT/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAOOYO8z6+vr/Iqoz//j4+P/Dw8P/y8vL/7q6uv/6+vr/45g7zAAAAAAAAAAAAAAAFqaf
+        k//PyL//+PTs///69P/48uv/6eLa/+Pa0//Xz8b/1MvC/9TLwv/Uy8L/1MvC/9TLwv/Uy8L/1MvC/9TL
+        wv/Xz8b/49rT/+ni2v/48uv///r0//Tw6P/PyL//pp+T/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOmeP8z//////v7+//7+/v/+/v7//v7+//7+/v//////6Z4/zAAA
+        AAAAAAAAAAAAFqaek////PX/6uPb/9PJwP/Nw7n/zsW6/87Fu//Pxrv/z8a8/8/GvP/Pxrz/z8a8/8/G
+        vP/Pxrz/z8a8/8/GvP/Pxrv/zsW7/87Fuv/Nw7n/08nA/+rj2////PX/q6SZ/wAAABYAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN+UOMzusmb/6q5i/+aqXv/hpVn/3KBU/9eb
+        T//Slkr/wncYzAAAAAAAAAAAAAAAFaafk//s5d3/1czC/9XMwv/WzcP/187D/9fOxP/XzsT/187E/9fO
+        xP/XzsT/187E/9fOxP/XzsT/187E/9fOxP/XzsT/187E/9fOw//WzcP/1czC/9XMwv/s5d3/pp+T/wAA
+        ABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOWaPLL5xnXx/M6F//fE
+        fv/0vHL/87xc//fEO//2wSPx5Zo8sgAAAAAAAAAAAAAADamilv/g1s3/4NbM/97Vy//d1Mr/3dTK/93U
+        yv/d1Mr/3dTK/93Uyv/d1Mr/3dTK/93Uyv/d1Mr/3dTK/93Uyv/d1Mr/3dTK/93Uyv/d1Mr/3tXL/9/W
+        zP/g1s3/qaKW/wAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOme
+        QEPpnkCy6Z5AzOmeQMzpnkDM6Z5AzOmeQMzpnkCy6Z5AQwAAAAAAAAAAAAAABKaek7K1raH/3tXL/+nh
+        1//n39X/5t7U/+Xd0//l3dP/5NzS/+Tc0v/k3NL/5NzS/+Tc0v/k3NL/5NzS/+Tc0v/l3dP/5d3T/+be
+        1P/n39X/6eHX/+La0P+1raH/pp6TsgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAOnn5SJqqOW/7euo//Iv7T/2dHG/93Vyv/x6d//8Oje//Do3v/w6N7/8Oje//Do3v/w6N7/8Oje//Do
+        3v/x6d//3dXK/9nRxv/Iv7T/t66j/6qilv+nn5SJAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAaCZjzemn5OFqaGW0qmhleKqopb/qqKW/6qilv+qopb/qqKW/6qi
+        lv+qopb/qqKW/6qilv+qopb/qaGV4qmhltKmn5OFoJmPNwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///////wAA////////AAD///////8AAP///////wAA////////AAD///////8AAP//
+        /////wAA////////AAD///AAAP8AAP//wAAAPwAA//+AAAAfAAD//4AAAB8AAPwBgAAAHwAA/AGAAAAf
+        AAD8AYAAAB8AAPwBgAAAHwAA/AGAAAAfAAD8AYAAAB8AAPwAgAAAHwAA/AAAAAAfAAD8AAAAAB8AAP//
+        AAAAHwAA//+AAAAfAAD//4AAAB8AAP//gAAAHwAA//8AAAAfAAD//gAAAB8AAPwAAAAAHwAA/ACAAAAf
+        AAD8AYAAAB8AAPwBgAAAHwAA/AGAAAAfAAD8AYAAAB8AAPwBgAAAHwAA/AGAAAAfAAD8AYAAAB8AAP//
+        wAAAPwAA///wAAD/AAD///////8AAP///////wAA////////AAD///////8AAP///////wAA////////
+        AAD///////8AAP///////wAA////////AAD///////8AACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALJnFpmtYhLMrWISzK1iEsytYhLMrWISzK1iEsytYhLMsmcWmQAA
+        AAEAAAAFAAAACwAAABEAAAAUAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAFgAA
+        ABQAAAARAAAACwAAAAUAAAABAAAAAAAAAAAAAAAAxnslzO3t7f/p6en/6enp/+np6f/p6en/6enp/+3t
+        7f/EeiXOAAAAFgAAACAAAAAtAAAANwAAAD4AAABBAAAAQwAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAA
+        AEMAAABBAAAAPgAAADcAAAAtAAAAIAAAABYAAAALAAAAAwAAAADRhi3M7u7u/25xwv/o6Oj/rq6u/7+/
+        v/+/v7//7u7u/8iAK9UAAAA+R0VAbXNwaKeLh33fjomA6pSPhf+TjoT/ko6E/5KOg/+SjYP/ko2D/5KN
+        g/+SjoT/k46E/5SPhf+OiYDqi4d933NwaKdHRUBtAAAAPgAAACsAAAATAAAABNqPNMz09PT/8PDw//Dw
+        8P/w8PD/8PDw//Dw8P/09PT/zIs87peRh/+hm5H/saqh/8W8tP/Lw7r/49jQ/+Xc1P/q39f/7eLc//Lm
+        3//z5+D/7uTd/+vg2P/m3dX/5NnR/8zEu//FvrX/sauh/6Gbkf+XkYf/eHNrqAAAAC4AAAAN45g7zPr6
+        +v8iqjP/+Pj4/8PDw//Ly8v/urq6//r6+v/WmUz/yMG3/9LKwf/Ty8L/187F/9nQyP/d08v/39bO/+PZ
+        0f/m3NX/6+DZ/+zh2v/n3db/5NrS/+DXz//e1Mz/2tHJ/9jPxv/VzMP/08vC/8W+s/+hm5H/iIR7wQAA
+        ABXpnj/M//////7+/v/+/v7//v7+//7+/v/+/v7//////+KlV//LxLr/zsa9/9DIv//Uy8L/187G/9vR
+        yf/e1c3/4tjQ/+Xb1P/p3tf/69/Y/+bc1f/j2dH/39bO/9zSyv/Yz8f/1czD/9HJwP/Px77/zMS7/8nC
+        uP+ZlIn/AAAAFt+UOMzusmb/6q5i/+aqXv/hpVn/3KBU/9ebT//Slkr/xIY4/7Gro//Nxbz/0Mi//9TL
+        wv/Xzsb/29HJ/97Vzf/i2ND/5dvU/+ne1//q39j/5tzV/+PZ0f/f1s7/3NLK/9jPx//VzMP/0cnA/87G
+        vf/Lw7r/zMO6/5mTif8AAAAW5Zo8svnGdfH8zoX/98R+//S8cv/zvFz/98Q7//G/Kf/Om1v/QkA9/396
+        df/MxLz/0snA/9XMxP/Zz8f/3NPL/+HWzv/k2dL/6d3W/+re1//l2tP/4tfP/93UzP/a0Mj/1s3F/9PK
+        wf/Px77/zcW8/8rCuf/Lwrn/mZSK/wAAABbpnkBD6Z5AsumeQMzpnkDM6Z5AzOmeQMzkmz/Q0ZtW/9G3
+        mP+5sqn/XltX/2ViX//h3NX/cHTI/0FJu/9BSbv/QUm7/0FIu/9BSLv/QUi7/0FIu/9zd8z///v0///8
+        9f/18Or/8uzl/+Te1f/VzsX/yMC3/8rBuP+alIn/AAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ABSalYr/08zD//bx6v/t5+H/ioaB/0NAPf9KTcP/9PT0//Dw8P/w8PD/8PDw//Dw8P/w8PD/9PT0/05R
+        z/+1q6H/taqi/7y0q//Jw7r/2tTN/+rl3v/28er/08zD/5mVif8AAAAUAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAEJuVi//y7OT/uK+m/6Wckf+ropj/pJyU/1dY2f/6+vr/Iqoz//j4+P/Dw8P/y8vL/7q6
+        uv/6+vr/XV/g/9/Vzf/SycD/z8W9/8K4r/+0q6L/q6GY/7evpv/x6+P/oZ2R/wAAABAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAQjYd9tbWspP+1raL/ycG4/9PLwv/WzcT/Xl/i///////+/v7//v7+//7+
+        /v/+/v7//v7+//////9gYeT/4NfP/93Ty//Z0cn/187F/9PLwv/QyL//wLiv/7eupf+Mhn21AAAAEAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSLhny4t6+k/8vFuv/Oxr3/0cnA/7qyqv9YW9r/Zmnu/2Jl
+        6v9eYeb/WVzh/1RX3P9PUtf/Sk3S/0FCxf/f1s7/3NLK/9jPx//VzMP/0cnA/8/Hvv/MxLv/vbWs/4uG
+        fLgAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFqCZj//Kwrn/ysO5/8vDu/+BfHb/RkNA/2dn
+        2P9+evb/iIX8/35+9/9ydPT/ZFzz/1Y79/9PLfT/bm/f/9/Wzv/c0sr/2M/H/9XMw//RycD/zsa9/8vD
+        uv/Lw7r/oJmP/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoJqO/8nBuP+7tKv/WldT/1tY
+        VP/Du7L/rqnO/25v3/9fYeP/YGLk/2Fj5P9iY+X/YmTl/3Jy4v+3sdb/3dTM/9rQyP/WzcX/08rB/8/H
+        vv/Nxbz/ysK5/8rCuf+gmY7/AAAAFrJnFpmtYhLMrWISzK1iEsytYhLMrWISzKpgEtCqbSv/toVS/0I/
+        PP+GgXz/49zV//Lt5f/28er///z1///79P//+/T//vrz//368//9+vP//vrz//769P//+/T///z1//bw
+        6v/y7OX/5N7V/9XOxf/IwLf/ycG4/6Caj/8AAAAWxnslzO3t7f/p6en/6enp/+np6f/p6en/6enp/+3t
+        7f/Ji0X/2NTO/+/p4//a1c3/ysK6/7yzq/+0q6H/tKqh/7aso/+4rqb/urCm/7uwqP+5rqX/t6yj/7Wr
+        ov+1qqL/vLSr/8rDuv/a1M3/7uni//bw6v/Sy8L/oJqO/wAAABTRhi3M7u7u/25xwv/o6Oj/rq6u/7+/
+        v/+/v7//7u7u/9eaUv+3r6b/pZyR/6uimP+7sqn/xbqx/9HIv//Vy8L/4dfP/+je1//s4dr/7uLb/+nf
+        2P/m3NT/2c7H/9LJwP/Pxb3/vrWs/7Srov+roZj/t66l//Dr4/+ooZb/AAAAEdqPNMz09PT/8PDw//Dw
+        8P/w8PD/8PDw//Dw8P/09PT/0pVK/7Wtov/Jwbj/08vC/9bNxP/Z0Mj/3dPL/9/Wz//j2dH/5tzV/+rf
+        2P/s4Nn/593W/+Ta0v/g18//3dPL/9rRyf/XzsX/08vC/9DIv/+/t6//tq6l/4+JgLYAAAAT45g7zPr6
+        +v8iqjP/+Pj4/8PDw//Ly8v/urq6//r6+v/anFD/y8S6/87Gvf/RycD/1MvC/9fOxv/b0cn/3tXN/+LY
+        0P/l29T/6d7X/+vf2P/m3NX/49nR/9/Wzv/c0sr/2M/H/9XMw//RycD/z8e+/8zEu/+8tKv/n5iN5wAA
+        ABbpnj/M//////7+/v/+/v7//v7+//7+/v/+/v7//////+OlV//Kw7n/zcW8/9DIv//Uy8L/187G/9vR
+        yf/e1c3/4tjQ/+Xb1P/p3tf/6t/Y/+bc1f/j2dH/39bO/9zSyv/Yz8f/1czD/9HJwP/Oxr3/y8O6/8rC
+        uv+lnpP/AAAAFt+UOMzusmb/6q5i/+aqXv/hpVn/3KBU/9ebT//Slkr/w4Y4/8nCuP/Mw7r/zsa9/9LI
+        v//Vy8P/2c7G/9zSyv/g1s7/49nS/+jd1v/q3tf/5drT/+HXz//d1Mz/2s/H/9bMxP/TycD/z8e+/83E
+        u//Kwrn/ysG5/6aflP8AAAAW5Zo8svnGdfH8zoX/98R+//S8cv/zvFz/98Q7//K/Kf/cpWH/xr+0/9LL
+        wv/i29P/8Ori//Pu5//9+vP//fny//348v/8+PH//Pjx//z48f/8+PH//fjy//358v/9+fP/8+7n/+/q
+        4v/i3NP/08zD/8e/tv/Iv7f/p6CT/wAAABbpnkBD6Z5AsumeQMzpnkDM6Z5AzOmeQMzkmz/Q1Z5Z/9a9
+        nv/49Oz///r0//jy6//p4tr/49rT/9fPxv/Uy8L/1MvC/9TLwv/Uy8L/1MvC/9TLwv/Uy8L/1MvC/9fP
+        xv/j2tP/6eLa//jy6///+vT/9PDo/8/Iv/+mn5P/AAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ABamnpP///z1/+rj2//TycD/zcO5/87Fuv/Oxbv/z8a7/8/GvP/Pxrz/z8a8/8/GvP/Pxrz/z8a8/8/G
+        vP/Pxrz/z8a7/87Fu//Oxbr/zcO5/9PJwP/q49v///z1/6ukmf8AAAAWAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAFaafk//s5d3/1czC/9XMwv/WzcP/187D/9fOxP/XzsT/187E/9fOxP/XzsT/187E/9fO
+        xP/XzsT/187E/9fOxP/XzsT/187E/9fOw//WzcP/1czC/9XMwv/s5d3/pp+T/wAAABUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAANqaKW/+DWzf/g1sz/3tXL/93Uyv/d1Mr/3dTK/93Uyv/d1Mr/3dTK/93U
+        yv/d1Mr/3dTK/93Uyv/d1Mr/3dTK/93Uyv/d1Mr/3dTK/93Uyv/e1cv/39bM/+DWzf+popb/AAAADQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASmnpOyta2h/97Vy//p4df/59/V/+be1P/l3dP/5d3T/+Tc
+        0v/k3NL/5NzS/+Tc0v/k3NL/5NzS/+Tc0v/k3NL/5d3T/+Xd0//m3tT/59/V/+nh1//i2tD/ta2h/6ae
+        k7IAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOnn5SJqqOW/7euo//Iv7T/2dHG/93V
+        yv/x6d//8Oje//Do3v/w6N7/8Oje//Do3v/w6N7/8Oje//Do3v/x6d//3dXK/9nRxv/Iv7T/t66j/6qi
+        lv+nn5SJAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoJmPN6af
+        k4WpoZbSqaGV4qqilv+qopb/qqKW/6qilv+qopb/qqKW/6qilv+qopb/qqKW/6qilv+poZXiqaGW0qaf
+        k4WgmY83AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAcAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPwAAAD8AAAA/AAAAPwAAAD+AAAB/4AAB/////8oAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuW8cmbNoF8yzaBfMs2gXzLNoF8yzaBfMs2gXzLNo
+        F8y5bxyZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMp/KMzt7e3/6urq/+rq6v/q6ur/6urq/+rq
+        6v/t7e3/yn8ozAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADWizHM8fHx/+zs7P/s7Oz/7Ozs/+zs
+        7P/s7Oz/8fHx/7x7LOgEBASLBQUFjAcHB4wJCQmLDAwMaAAAAAAAAAAA4ZY5zPj4+P/29vb/9vb2//b2
+        9v/29vb/9vb2//j4+P/bn1X/s7Ox/52llP+vvar/0d/P/xcXF34AAAAAAAAAAOmeP8z+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7/5qpe/8zLyf+3ua7/wsq7/9nj1f8pKSlyAAAAAAAAAADflDjM7rJm/+qu
+        Yv/mql7/4aVZ/9ygVP/Xm0//0pZK/7p+Mv+Dg4P/eXl5/4eHh/9kZGS4Ozs7NwAAAAAAAAAA5Zo8svnG
+        dfH8zoX/98R+//S8cv/zvFz/98Q7//XDLv/bp2X/tLKx/6SimP+7vLD/3t7V/0hISGwAAAAAAAAAAOme
+        QEPpnkCy6Z5AzOmeQMzpnkDM6Z5AzNuWQeDptXP/3cmx/83Kyf+/uLL/z8nC/+fi3P9KSkpsAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABKSkozXFxcs5iYmP+Dg4P/eXl5/4eHh/9oaGi6SkpKNwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASkpKZubm5v/ExMT/tbGx/62enP/Iurj/697d/0pK
+        SmwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEpKSmbq6ur/2dnZ/87Jyf/HtbX/2sjI//Pi
+        4v9KSkpsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABVVVVNVVVVZlVVVWZVVVVmVVVVZlVV
+        VWZVVVVmVVVVTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD//wAAgD8AAIA/AACAAQAAgAEAAIABAACAAQAAgAEAAIAB
+        AAD+AQAA/gEAAP4BAAD+AQAA//8AAP//AAA=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>640, 480</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MeriseSuite</value>
+  </data>
+  <data name="&gt;&gt;Standard_NewButton.Name" xml:space="preserve">
+    <value>Standard_NewButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_NewButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_OpenButton.Name" xml:space="preserve">
+    <value>Standard_OpenButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_OpenButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_SaveButton.Name" xml:space="preserve">
+    <value>Standard_SaveButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_SaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Name" xml:space="preserve">
+    <value>toolStripSeparator</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_AddNewEntityButton.Name" xml:space="preserve">
+    <value>Standard_AddNewEntityButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_AddNewEntityButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_ApplyButton.Name" xml:space="preserve">
+    <value>Standard_NamingStyle_ApplyButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_ApplyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_PascalCaseButton.Name" xml:space="preserve">
+    <value>Standard_NamingStyle_PascalCaseButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_PascalCaseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_CamelCaseButton.Name" xml:space="preserve">
+    <value>Standard_NamingStyle_CamelCaseButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_CamelCaseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_LowerCaseButton.Name" xml:space="preserve">
+    <value>Standard_NamingStyle_LowerCaseButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_LowerCaseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_UpperCaseButton.Name" xml:space="preserve">
+    <value>Standard_NamingStyle_UpperCaseButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_NamingStyle_UpperCaseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_NewRelationButton.Name" xml:space="preserve">
+    <value>Standard_NewRelationButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_NewRelationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_PropertyStyle_ApplyButton.Name" xml:space="preserve">
+    <value>Standard_PropertyStyle_ApplyButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_PropertyStyle_ApplyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_PropertyStyle_KeyOnlyButton.Name" xml:space="preserve">
+    <value>Standard_PropertyStyle_KeyOnlyButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_PropertyStyle_KeyOnlyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_PropertyStyle_PrefixButton.Name" xml:space="preserve">
+    <value>Standard_PropertyStyle_PrefixButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_PropertyStyle_PrefixButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_PropertyStyle_SuffixButton.Name" xml:space="preserve">
+    <value>Standard_PropertyStyle_SuffixButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_PropertyStyle_SuffixButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Standard_AddNewLinkButton.Name" xml:space="preserve">
+    <value>Standard_AddNewLinkButton</value>
+  </data>
+  <data name="&gt;&gt;Standard_AddNewLinkButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Status_Spacer.Name" xml:space="preserve">
+    <value>Status_Spacer</value>
+  </data>
+  <data name="&gt;&gt;Status_Spacer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Status_CreditsLabel.Name" xml:space="preserve">
+    <value>Status_CreditsLabel</value>
+  </data>
+  <data name="&gt;&gt;Status_CreditsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileMenu.Name" xml:space="preserve">
+    <value>FileMenu</value>
+  </data>
+  <data name="&gt;&gt;FileMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;File_NewButton.Name" xml:space="preserve">
+    <value>File_NewButton</value>
+  </data>
+  <data name="&gt;&gt;File_NewButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;File_OpenButton.Name" xml:space="preserve">
+    <value>File_OpenButton</value>
+  </data>
+  <data name="&gt;&gt;File_OpenButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;File_SaveButton.Name" xml:space="preserve">
+    <value>File_SaveButton</value>
+  </data>
+  <data name="&gt;&gt;File_SaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;File_SaveAsButton.Name" xml:space="preserve">
+    <value>File_SaveAsButton</value>
+  </data>
+  <data name="&gt;&gt;File_SaveAsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;File_QuitButton.Name" xml:space="preserve">
+    <value>File_QuitButton</value>
+  </data>
+  <data name="&gt;&gt;File_QuitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ModelMenu.Name" xml:space="preserve">
+    <value>ModelMenu</value>
+  </data>
+  <data name="&gt;&gt;ModelMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Menu_AddNewEntityButton.Name" xml:space="preserve">
+    <value>Menu_AddNewEntityButton</value>
+  </data>
+  <data name="&gt;&gt;Menu_AddNewEntityButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Model_AddNewRelatioButton.Name" xml:space="preserve">
+    <value>Model_AddNewRelatioButton</value>
+  </data>
+  <data name="&gt;&gt;Model_AddNewRelatioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Model_AddNewLinkButton.Name" xml:space="preserve">
+    <value>Model_AddNewLinkButton</value>
+  </data>
+  <data name="&gt;&gt;Model_AddNewLinkButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsMenu.Name" xml:space="preserve">
+    <value>SettingsMenu</value>
+  </data>
+  <data name="&gt;&gt;SettingsMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_ColorsMenu.Name" xml:space="preserve">
+    <value>Settings_ColorsMenu</value>
+  </data>
+  <data name="&gt;&gt;Settings_ColorsMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_SetEntityColorButton.Name" xml:space="preserve">
+    <value>Settings_SetEntityColorButton</value>
+  </data>
+  <data name="&gt;&gt;Settings_SetEntityColorButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_SetRelationColorButton.Name" xml:space="preserve">
+    <value>Settings_SetRelationColorButton</value>
+  </data>
+  <data name="&gt;&gt;Settings_SetRelationColorButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_SetInheritanceColorButton.Name" xml:space="preserve">
+    <value>Settings_SetInheritanceColorButton</value>
+  </data>
+  <data name="&gt;&gt;Settings_SetInheritanceColorButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_QualityMenu.Name" xml:space="preserve">
+    <value>Settings_QualityMenu</value>
+  </data>
+  <data name="&gt;&gt;Settings_QualityMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_LowQualityButton.Name" xml:space="preserve">
+    <value>Settings_LowQualityButton</value>
+  </data>
+  <data name="&gt;&gt;Settings_LowQualityButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_HighQualityButton.Name" xml:space="preserve">
+    <value>Settings_HighQualityButton</value>
+  </data>
+  <data name="&gt;&gt;Settings_HighQualityButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpMenu.Name" xml:space="preserve">
+    <value>HelpMenu</value>
+  </data>
+  <data name="&gt;&gt;HelpMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Help_AboutButton.Name" xml:space="preserve">
+    <value>Help_AboutButton</value>
+  </data>
+  <data name="&gt;&gt;Help_AboutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog.Name" xml:space="preserve">
+    <value>SaveFileDialog</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenFileDialog.Name" xml:space="preserve">
+    <value>OpenFileDialog</value>
+  </data>
+  <data name="&gt;&gt;OpenFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorDialog.Name" xml:space="preserve">
+    <value>ColorDialog</value>
+  </data>
+  <data name="&gt;&gt;ColorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

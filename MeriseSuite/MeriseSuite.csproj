@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACF77D90-4D80-45F5-922C-0B5DB665B884}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MeriseSuite</RootNamespace>
+    <AssemblyName>MeriseSuite</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>MeriseSuite.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History\Action.cs" />
+    <Compile Include="History\ActionGroup.cs" />
+    <Compile Include="History\Creations.cs" />
+    <Compile Include="History\Deletions.cs" />
+    <Compile Include="History\HistoryStack.cs" />
+    <Compile Include="History\Modifications.cs" />
+    <Compile Include="IO.cs" />
+    <Compile Include="Modelling\Aggregation.cs" />
+    <Compile Include="Modelling\Cardinality.cs" />
+    <Compile Include="Modelling\Element.cs" />
+    <Compile Include="Modelling\Entity.cs" />
+    <Compile Include="Modelling\EntityLink.cs" />
+    <Compile Include="Modelling\Inheritance.cs" />
+    <Compile Include="Modelling\Model.cs" />
+    <Compile Include="Modelling\Property.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelling\Relation.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Definitions\InheritanceLink.cs" />
+    <Compile Include="UI\Definitions\RelationLink.cs" />
+    <Compile Include="UI\ModelVisualizer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ModelVisualizer.Designer.cs">
+      <DependentUpon>ModelVisualizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Shapes\RoundRectangle.cs" />
+    <Compile Include="UI\Shapes\WeirdRectangle.cs" />
+    <Compile Include="UI\Styling\Direction.cs" />
+    <Compile Include="UI\Styling\EntityStyle.cs" />
+    <Compile Include="UI\Styling\InheritanceStyle.cs" />
+    <Compile Include="UI\Styling\LinkStyle.cs" />
+    <Compile Include="UI\Styling\MouseStyle.cs" />
+    <Compile Include="UI\Styling\RelationStyle.cs" />
+    <Compile Include="UI\Styling\Style.cs" />
+    <Compile Include="UI\ToolStripMenuLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="MeriseSuite.pfx" />
+    <None Include="Modelling\Modelling.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CamelCase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeyOnly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeyPrefix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeySuffix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PascalCase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpperCase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewEntity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewRelation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Relation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Property.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewLink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inheritance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewInheritance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.png" />
+    <Content Include="Suivi MeriseSuite [JP].txt" />
+    <Content Include="Suivi MeriseSuite.txt" />
+    <Content Include="Icon.ico" />
+    <None Include="Resources\New.png" />
+    <None Include="Resources\Save.png" />
+    <None Include="Resources\Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

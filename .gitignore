@@ -234,3 +234,8 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+/Comm
+/Documents
+/MeriseSuite/Suivi MeriseSuite [JP].txt
+/MeriseSuite/Suivi MeriseSuite.txt
+/MeriseSuite/Suivi MeriseSuite [JP].txt

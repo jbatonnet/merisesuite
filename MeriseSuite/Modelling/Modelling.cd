@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MeriseSuite.Modelling.Aggregation">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelling\Aggregation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Relation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MeriseSuite.Modelling.Relation">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAEAAAACAAA=</HashCode>
+      <FileName>Modelling\Relation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Properties" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MeriseSuite.Modelling.Entity">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAAAAAQAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Modelling\Entity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Properties" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MeriseSuite.Modelling.Model">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAEAAACAAAA=</HashCode>
+      <FileName>Modelling\Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Entities" />
+      <Property Name="Relations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MeriseSuite.Modelling.Property">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAQAAAACAAAA=</HashCode>
+      <FileName>Modelling\Property.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MeriseSuite.Definitions.RelationLink">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAgAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>UI\Definitions\RelationLink.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Relation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MeriseSuite.Definitions.InheritanceLink">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>UI\Definitions\InheritanceLink.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Entity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MeriseSuite.Modelling.Inheritance">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAEQAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Modelling\Inheritance.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parent" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Children" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="MeriseSuite.Modelling.Cardinality">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAgAAAAAAAIE=</HashCode>
+      <FileName>Modelling\Cardinality.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MeriseSuite.Modelling.InheritanceType">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAE=</HashCode>
+      <FileName>Modelling\Inheritance.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MeriseSuite.Modelling.PropertyType">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAgABAAAACAAAAAA=</HashCode>
+      <FileName>Modelling\Property.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

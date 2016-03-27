@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MeriseSuite.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Quality" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EntityColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">SkyBlue</Value>
+    </Setting>
+    <Setting Name="RelationColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Pink</Value>
+    </Setting>
+    <Setting Name="InheritanceColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">LightGreen</Value>
+    </Setting>
+    <Setting Name="NamingStyle" Type="MeriseSuite.CapitalizationStyle" Scope="User">
+      <Value Profile="(Default)">PascalCase</Value>
+    </Setting>
+    <Setting Name="PropertyStyle" Type="MeriseSuite.PropertyStyle" Scope="User">
+      <Value Profile="(Default)">KeyOnly</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
